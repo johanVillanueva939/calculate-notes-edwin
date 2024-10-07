@@ -88,7 +88,7 @@ function btn_predict(event) {
     response.style.color = 'black'
     body.style.backgroundColor = 'black'
     btnCalculate.style.backgroundColor = 'black'
-    btnPredict.style.backgroundColor = 'balck'
+    btnPredict.style.backgroundColor = 'black'
   
   } else if (n3 <= 5 && n3 >= 2.5) {
     data3.value = n3.toFixed(2)
