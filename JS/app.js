@@ -55,7 +55,7 @@ function calculateNote(event) {
       response.style.color = 'black'
       body.style.backgroundColor = 'black'
       btnCalculate.style.backgroundColor = 'black'
-      btnPredict.style.backgroundColor = 'balck'
+      btnPredict.style.backgroundColor = 'black'
 
     } else if (result >= 3.5 && result <= 4.5) {
       response.textContent = `${username.value} ha GANADO la materia con: ${result}`
