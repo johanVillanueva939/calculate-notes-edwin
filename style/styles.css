@@ -1,3 +1,9 @@
+*{
+  transition: all .4s;
+}
+::selection{
+  background-color: #c3c2c2a0;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e9ecef;
@@ -7,7 +13,6 @@ body {
   height: 100vh;
   margin: 0;
 }
-
 .container {
   background: white;
   padding: 30px;
@@ -16,25 +21,22 @@ body {
   width: 400px;
   text-align: center;
 }
-
 h1 {
   margin-bottom: 20px;
   font-size: 24px;
   color: #343a40;
 }
-
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 label {
   text-align: left;
   font-weight: bold;
   color: #495057;
+  cursor:text;
 }
-
 input {
   margin: 5px 0;
   padding: 12px;
@@ -44,13 +46,12 @@ input {
   font-size: 16px;
   box-sizing: border-box;
   transition: border-color 0.3s ease;
+  cursor: cell;
 }
-
 input:focus {
-  border-color: #80bdff;
+  border-color:#61fa32;
   outline: none;
 }
-
 button {
   margin-top: 15px;
   padding: 12px 0;
@@ -61,19 +62,20 @@ button {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all .15s;
 }
-
 button:hover {
   background-color: #218838;
 }
-
+button:active{
+  background-color: #343a40;
+  box-shadow: 1px 1px 10px 1px black;
+}
 #resultado {
   margin-top: 20px;
   font-size: 18px;
   color: #343a40;
 }
-
 @media (max-width: 600px) {
   .container {
     width: 90%;

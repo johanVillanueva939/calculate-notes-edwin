@@ -1,9 +1,11 @@
 Tarea1:
+
 Realiza una función que:
-si la nota definitiva es menor a 3.5 debe informar al usuario que perdió la materia en color negro
-si la nota definitiva es está entre 3.5 y 4.5 debe informar al usuario que ganó la materia en color naranja
-si la nota definitiva es mayor a 4.5 debe informar al usuario que su nota es sobresaliente en color verde.
+si la nota definitiva es menor a 3.5 debe informar al usuario que perdió la materia en color negro ✓
+si la nota definitiva es está entre 3.5 y 4.5 debe informar al usuario que ganó la materia en color naranja ✓
+si la nota definitiva es mayor a 4.5 debe informar al usuario que su nota es sobresaliente en color verde. ✓
 
 Tarea2:
 
-Al dar click en el botón predecir, el sistema deberá agregar de manera automática la nota mínima en el input de la nota3(Dícese de nota mínima la nota que debe sacar para que su definitiva quede en 3.5)
+Al dar click en el botón predecir, el sistema deberá agregar de manera automática la nota mínima en el 
+input de la nota3(Dícese de nota mínima la nota que debe sacar para que su definitiva quede en 3.5) ✓
